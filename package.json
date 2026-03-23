@@ -1,0 +1,30 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "Boot.dev WebScaper project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djsmall/webScraper.git"
+  },
+  "keywords": [
+    "webScraper",
+    "HTTP",
+    "webdev"
+  ],
+  "author": "Dan Small",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djsmall/webScraper/issues"
+  },
+  "homepage": "https://github.com/djsmall/webScraper#readme",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
